@@ -1,0 +1,23 @@
+CatBoost Parameters:
+
+1. **Common Parameters** (Official Docs):
+   - `learning_rate` (default: 0.1)
+   - `depth` (default: 6)
+   - `iterations` (default: 100)
+   - `loss_function` (e.g., 'Logloss', 'CrossEntropy')
+   - `l2_leaf_reg` (regularization)
+
+2. **Hyperparameters** (GeeksforGeeks):
+   - `bagging_temperature` (controls diversity)
+   - `od_type` (overfitting detection)
+   - `random_state` (reproducibility)
+
+3. **Categorical Data Handling** (apxml.com):
+   - `cat_features` (list of categorical columns)
+   - `border_count` (split points for categorical features)
+
+4. **Special Parameters** (Medium):
+   - Bayesian parameters (weight calculation)
+   - `task_type` (CPU/GPU)
+
+Source: https://catboost.ai/docs/en/references/training-parameters/common, https://www.geeksforgeeks.org/catboost-parameters-and-hyperparameters/
